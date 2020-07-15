@@ -67,7 +67,7 @@ h1 {
 
 .overlay {
   position: fixed;
-  background: #ff5252;
+  background: #ff5252a6;
   top: 0;
   left: 0;
   width: 100%;
@@ -131,9 +131,10 @@ h1 {
 .overlay ul li a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #3c3768;
   text-decoration: none;
   overflow: hidden;
+  text-decoration: none;
 }
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
   width: 100%;
@@ -214,7 +215,7 @@ h1 {
     padding: 0 20px;
     /* width: 450px; */
     width: 100%;
-    caret-color:red;
+    caret-color: #a73737;
     transition: width 0.4s linear;
     }
 
@@ -273,16 +274,16 @@ top: 0px;
 left: 0px;
 }
 header .vh-800{
-  min-height: 800px;
-
+  min-height: 550px;
 }
+.vh-800{}
 .banner-content{
 
 text-align: left;
 }
 .banner-content h1{
 
-color: #3c3768;
+color: #413b76;
 
 font-style: bold;
 
@@ -403,4 +404,258 @@ border: 1px solid #e57174;
 }
 .section-3 img{
     left: 0px;
+}
+
+
+.subcribe-section{
+
+align-items: center;
+
+padding-top: 110px;
+
+padding-bottom: 97px;
+}
+.subcribe-section h2{
+
+font-size: 39px;
+
+font-weight: 700;
+
+color: white;
+
+text-decoration: none;
+
+text-transform: initial;
+}
+.subcribe-section p{
+
+color: #c5cae9;
+
+font-size: 17px;
+}
+.subcribe-section form{
+
+}
+.subcribe-section input{
+
+}
+.subcribe-section button{
+
+}
+.subcribe-section .container{
+  background-image: url(../images/shot-sub.png);
+  padding: 81px 0px 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.subcribe-section .row{
+
+align-items: center;
+
+/* padding-top: 80px; */
+
+/* padding-bottom: 80px; */
+}
+footer{position: relative;text-align: left;}
+footer > img {position: absolute;left: 0px;bottom: 0px;z-index: -1;}
+footer .logo-footer img{
+
+padding: 0px 20px 20px 0px;
+}
+footer .logo-footer p{
+
+color: #455a64;
+
+font-size: 14px;
+
+padding-right: 0px;
+}
+footer .menu{}
+footer .favicon{}
+footer .menu ul{}
+footer .favicon ul{
+    padding: 5px;
+}
+footer .menu ul li{
+    padding: 0px 0px 10px 10px;
+}
+footer .favicon ul li{
+   
+}
+footer .menu ul li a{
+    text-decoration: none;
+    color: #455a64;
+    font-weight: 600;
+}
+footer .favicon ul li a{
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #322e57;
+    color: white;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    transition-duration: 0.3s;
+}
+footer .menu ul li a:hover{
+    color: #fa7875;
+}
+footer .favicon ul li a:hover{
+    background: #d00f0b;
+}
+.copyrights{
+
+}
+.copyrights p{
+  
+color: #455a64;
+  
+font-size: 16px;
+  
+padding-bottom: 20px;
+}
+
+
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1150px;
+}
+}
+
+
+
+
+@media (max-width: 1199px){
+
+header .vh-800 {
+    min-height: 430px;
+}
+.banner-content h1 {
+    font-size: 46px;
+}
+.banner-content p {
+    font-size: 13px;
+    padding-right: 51px;
+}
+header {
+    padding-top: 20px;
+    position: relative;
+    padding: 20px 30px 0px 30px;
+}
+}
+
+
+@media (max-width: 991px){
+header .vh-800 {
+    min-height: 400px;
+}
+
+.banner-content h1 {
+    font-size: 39px;
+}
+.banner-content p {
+    font-size: 12px;
+    padding-right: 10px;
+}
+.form-inline input {
+    padding: 27px 34px;
+}
+.form-inline button {
+    padding: 12px 23px;
+    font-size: 17px;
+}
+}
+@media (max-width:767px){
+header .vh-800 {
+    min-height: 281px;
+}
+.banner-content h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.banner-content p {
+    font-size: 10px;
+    padding-right: 10px;
+}
+.banner-content h6 {
+    font-size: 14px;
+}
+
+
+.form-inline input {
+    padding: 16px 4px;
+}
+.form-inline button {
+    padding: 10px 11px;
+    font-size: 12px;
+}
+
+
+
+@media (max-width:575px){
+
+header .vh-800 {
+    min-height: 230px;
+}
+.banner-content h1 {
+    font-size: 21px;
+    width: 50%;
+}
+.banner-content p {
+    font-size: 9px;
+    padding-right: 9px;
+    width: 50%;
+}
+.form-inline button {
+    padding: 6px 8px;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.form-inline input {
+    padding: 18px 13px;
+    padding-left: 12px;
+}
+}
+
+
+@media (max-width:450px){
+
+  .header .vh-800 {
+    min-height: 230px;
+}
+.banner-content h1 {
+    font-size: 21px;
+    width: 50%;
+}
+.banner-content p {
+    font-size: 9px;
+    padding-right: 9px;
+    width: 50%;
+}
+.form-inline button {
+    padding: 6px 8px;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.form-inline input {
+    padding: 18px 13px;
+    padding-left: 12px;
+}
+.logo{}
+}
+}
+
+@media (max-width: 575px){
+header .vh-800 {
+    min-height: 201px;
+}
+header .logo{}
 }
